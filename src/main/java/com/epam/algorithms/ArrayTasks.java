@@ -1,6 +1,5 @@
 package com.epam.algorithms;
 
-import java.util.Arrays;
 
 /**
  * Here are the tasks for working with the arrays.
