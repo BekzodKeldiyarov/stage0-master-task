@@ -9,4 +9,9 @@ public class Dog extends Animal {
     public String getDescription() {
         return super.getDescription();
     }
+
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        System.out.println(dog.getDescription());
+    }
 }
