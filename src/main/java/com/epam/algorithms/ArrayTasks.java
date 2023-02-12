@@ -8,17 +8,6 @@ import java.util.Arrays;
  * The usage of any additional packages (such as java.util.*) is forbidden.
  */
 public class ArrayTasks {
-    public static void main(String[] args) {
-        ArrayTasks arrayTasks = new ArrayTasks();
-//        Arrays.stream(arrayTasks.generateNumbers(5)).sequential().forEach(e -> System.out.println(e));
-//        System.out.println(arrayTasks.totalSum(arrayTasks.generateNumbers(10)));
-
-//        Arrays.stream(arrayTasks.reverseArray(arrayTasks.seasonsArray())).sequential().forEach(e -> System.out.println(e));
-        int[][] arr = new int[2][3];
-        arr[0] = new int[]{3, 1, 2};
-        arr[1] = new int[]{2, 9};
-        System.out.println(Arrays.deepToString(arrayTasks.sortRaggedArray(arr)));
-    }
 
     /**
      * Return a String[] array that will list all the seasons of the year, starting with winter.
