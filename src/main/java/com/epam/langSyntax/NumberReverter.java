@@ -6,6 +6,9 @@ public class NumberReverter {
         String numberString = number + "";
         for (int i = numberString.length() - 1; i >= 0; i--) {
             System.out.print(numberString.charAt(i));
+            if (i == 0) {
+                System.out.println();
+            }
         }
     }
 
